@@ -1,3 +1,11 @@
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Simple program to run a compute shader in a headless EGL/GLESv31 context.
+ *
+ * Author: Patrik Jakobsson <pjakobsson@suse.de>
+ * Copyright (C) 2020 SUSE LLC
+ */
+
 #include <EGL/egl.h>
 #include <EGL/eglext.h>
 #include <GLES3/gl31.h>
